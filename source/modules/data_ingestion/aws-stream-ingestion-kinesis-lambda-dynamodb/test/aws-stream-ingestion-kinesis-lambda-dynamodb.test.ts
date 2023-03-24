@@ -1,13 +1,13 @@
 // import * as cdk from 'aws-cdk-lib';
 // import { Template } from 'aws-cdk-lib/assertions';
-// import * as Ingestion from '../lib/ingestion-stack';
+// import * as AwsStreamIngestionKinesisLambdaDynamodb from '../lib/aws-stream-ingestion-kinesis-lambda-dynamodb-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/ingestion-stack.ts
+// example resource in lib/aws-stream-ingestion-kinesis-lambda-dynamodb-stack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN
-//   const stack = new Ingestion.IngestionStack(app, 'MyTestStack');
+//   const stack = new AwsStreamIngestionKinesisLambdaDynamodb.AwsStreamIngestionKinesisLambdaDynamodbStack(app, 'MyTestStack');
 //     // THEN
 //   const template = Template.fromStack(stack);
 
